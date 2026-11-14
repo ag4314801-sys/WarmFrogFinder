@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "warmfrogfinder",
+  "version": "${version}",
+  "name": "WarmFrogFinder",
+  "description": "Automatically detects loaded Warm (White) Frogs within render distance and displays a compact top-left HUD sorted by distance.",
+  "authors": [
+    "Kanishk"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.warmfrogfinder.WarmFrogFinderClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
